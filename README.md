@@ -11,8 +11,8 @@ classDiagram
     class Account {
         -String number
         -String agency
-        -float balance
-        -float limit
+        -Double balance
+        -Double limit
     }
 
     class Feature {
@@ -22,7 +22,7 @@ classDiagram
 
     class Card {
         -String number
-        -float limit
+        -Double limit
     }
 
     class News {

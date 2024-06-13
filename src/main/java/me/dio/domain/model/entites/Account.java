@@ -1,4 +1,4 @@
-package me.dio.domain.model;
+package me.dio.domain.model.entites;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -19,7 +19,7 @@ public class Account {
     private String agency;
 
     @Column(nullable = false,
-            precision = 2)
+            scale = 2)
     private Double balance;
 
     @Column(name = "additional_limit",

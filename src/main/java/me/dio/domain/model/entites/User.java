@@ -1,4 +1,4 @@
-package me.dio.domain.model;
+package me.dio.domain.model.entites;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
